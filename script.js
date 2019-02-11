@@ -2,24 +2,9 @@ var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
-var r1 = document.querySelector(".random1");
-var r2 = document.querySelector(".random2");
+var r1 = document.querySelector(".random");
 
 r1.addEventListener("click", function() {
-	var c1 = getRandomColor();
-	var c2 = getRandomColor();
-	color1.value = c1;
-	color2.value = c2;
-	body.style.background = "linear-gradient(to right, "
-	+ c1
-	+ ", " 
-	+ c2
-	+ ")";
-
-	css.textContent = body.style.background + ";";	
-})
-
-r2.addEventListener("click", function() {
 	var c1 = getRandomColor();
 	var c2 = getRandomColor();
 	color1.value = c1;
