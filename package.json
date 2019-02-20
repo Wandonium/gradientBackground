@@ -4,7 +4,7 @@
   "description": "Generate backgrounds by fading colors into each other",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Wandonium/gradientBackground/issues"
   },
-  "homepage": "https://github.com/Wandonium/gradientBackground#readme"
+  "homepage": "https://github.com/Wandonium/gradientBackground#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
