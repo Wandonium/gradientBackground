@@ -18,8 +18,6 @@ r1.addEventListener("click", function() {
 	+ ", " 
 	+ c2
 	+ ")";
-
-	css.textContent = body.style.background + ";";	
 })
 
 css.textContent = body.style.backgroundColor + "WTF";
