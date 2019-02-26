@@ -18,9 +18,9 @@ r1.addEventListener("click", function() {
 	+ ", " 
 	+ c2
 	+ ")";
-})
 
-css.textContent = body.style.backgroundColor + "WTF";
+	css.textContent = body.style.background + ";";	
+})
 
 function setGradient() {
 	body.style.background = "linear-gradient(to right, "
